@@ -14,20 +14,16 @@ def scrambles(s1,s2)
 arr1 = s1.split('')
 arr2 = s2.split('')
 t =0
-f =0
 arr2.each { |x| if arr1.include?(x)
 t = t+1
-else
-f = f+1
 end
 }
-if t == arr2.length
+if t == s2.length
   print true
 else
   print false
 end
-
 end
 
 
-scrambles('cedewaraaooqqyt','codewars')
+scrambles('cedewaraaoosqqyt','codewars')
