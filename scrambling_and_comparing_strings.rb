@@ -11,10 +11,13 @@ Performance needs to be considered
 =end
 
 def scrambles(s1,s2)
-arr1 = s1.split('')
-arr2 = s2.split('')
+#arr1 = s1.split('')
+#arr2 = s2.split('')
 t =0
-arr2.each { |x| if arr1.include?(x)
+#arr2.each { |x| if arr1.include?(x)
+#Dont need to parse the string and convert it into an array , use .each_char
+# .include? methods of the string class :)
+s2.each_char { |x| if s1.include?(x)
 t = t+1
 end
 }
