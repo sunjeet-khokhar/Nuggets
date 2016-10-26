@@ -3,7 +3,10 @@ Description:
 
 Count the number of Duplicates
 
-Write a function that will return the count of distinct case-insensitive alphabetic characters that occur more than once in the given string. The given string can be assumed to contain only digits and uppercase and lowercase alphabets.
+Write a function that will return the count of distinct case-insensitive alphabetic
+characters that occur more than once in the given string.
+The given string can be assumed to contain only digits
+and uppercase and lowercase alphabets.
 
 Example
 
