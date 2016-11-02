@@ -10,8 +10,9 @@ The inputs to your function will always be non-negative integers.
 =end
 
 def last_digit(n1, n2)
-  arr = (n1 ** n2).to_s.split('')
+arr = (n1 ** n2).to_s.split('')
   print arr.map{|x| x.to_i}.last
 end
 
-last_digit(2,5)
+last_digit(10,1000000)
+#last_digit(38710248912497124917933333333284108412048102948908149081409204712406, 2266)
