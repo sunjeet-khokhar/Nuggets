@@ -1,7 +1,7 @@
 #declare method
-def fizzbuzz()
+def fizzbuzz(max)
 # loop from 1 to 15 in steps of 1
-(1..100000000).each do |i|
+(1..max).each do |i|
   #first condition to check for divisibility by 3 and 5
 if (i%3 == 0 && i%5 == 0)
 print "FizzBUzz"
@@ -25,4 +25,4 @@ end
 end #end of the count loop
 end #for the method declaration
 
-fizzbuzz()
+fizzbuzz(1000)
